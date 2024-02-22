@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item
+            android:id="@+id/calcButton"
+            android:icon="@drawable/baseline_calculate_24"
+            android:title="Calculator"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/equalButton"
+            android:icon="@drawable/baseline_equalizer_24"
+            android:title="Equalizer"
+            app:showAsAction="always" />
+        <item
+            android:id="@+id/trigButton"
+            android:icon="@drawable/baseline_view_in_ar_24"
+            android:title="Trigonometry"
+            app:showAsAction="always" />
+    </group>
+</menu>
